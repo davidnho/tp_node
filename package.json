@@ -1,0 +1,25 @@
+{
+  "name": "tp_node",
+  "version": "1.0.0",
+  "description": "Node.js Tutorial from Tutorialspoint",
+  "main": "main.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/davidnho/tp_node.git"
+  },
+  "keywords": [
+    "node",
+    "js",
+    "javascript",
+    "web"
+  ],
+  "author": "Noel S. David",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/davidnho/tp_node/issues"
+  },
+  "homepage": "https://github.com/davidnho/tp_node#readme"
+}
