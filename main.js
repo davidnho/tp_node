@@ -8,8 +8,8 @@ var express = require("express");
 
 // 2. Create server
 http.createServer(function (request,response) {
-	response.writeHead(200,{'Content-Type': 'text/plain'});
-	response.end('Hello Noel');
+	response.writeHead(200,{'Content-Type': 'text/html'});
+	response.end('<h4>Hello Noel</h4>');
 }).listen(8000);
 console.log('Server running at http://localhost:8000');
  
