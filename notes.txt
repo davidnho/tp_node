@@ -1,0 +1,4 @@
+source - https://www.tutorialspoint.com/nodejs/
+
+tasks:
+1. read more about eventEmitters and listeners (https://www.tutorialspoint.com/nodejs/nodejs_event_emitter.htm)
