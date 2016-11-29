@@ -2,8 +2,8 @@ var express = require('express');
 var app = express();
 
 app.use(express.static('public'));
-app.get('/post.html', function (req, res) {
-   res.sendFile( __dirname + "/" + "post.html" );
+app.get('/get.html', function (req, res) {
+   res.sendFile( __dirname + "/" + "get.html" );
 })
 
 app.get('/process_get', function (req, res) {
@@ -13,7 +13,7 @@ app.get('/process_get', function (req, res) {
       last_name:req.query.last_name
    };
    console.log(response);
-   res.end(JSON.stringify(response));
+   res.end(JSON.stringify("Hello Noel"));
 })
 
 var server = app.listen(8081, function () {
