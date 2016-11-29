@@ -13,7 +13,7 @@ app.get('/process_get', function (req, res) {
       last_name:req.query.last_name
    };
    console.log(response);
-   res.end(JSON.stringify("Hello Noel"));
+   res.end(JSON.stringify(response));
 })
 
 var server = app.listen(8081, function () {
