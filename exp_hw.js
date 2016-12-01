@@ -2,7 +2,7 @@ var express = require('express');
 var app = express();
 var cons = require('consolidate');
 // view engine setup
-app.engine('html', cons.swig)
+app.engine('html', cons.swig);
 app.set('views', 'views');
 app.set('view engine', 'html');
 
